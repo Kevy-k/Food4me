@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 233, 233);
+}
+#navbar
+{
+    background-color: black;
+    height: 70px;
+}
+#navbar a
+{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;   
+    margin: 20px;
+    height: 30px;
+    text-align: center;
+}
+#navbar a:hover{
+    color: red;
+}
+.register
+{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 35%;
+    border: 2px solid black;
+   border-radius: 50px 0 50px;
+    width: 500px;
+    height: 550px;
+    background-color:rgb(243, 237, 237);
+    border: none;
+    box-shadow: 0 0 20px rgb(95, 93, 93);
+}
+.register h1
+{
+    text-align: center;
+}
+.register .input-box
+{
+    padding: 13px;
+    display: inline-flex;
+    margin-left: 20px;
+}
+ .input-box input
+{
+    width: 100%;
+    height: 30px;
+    margin:10px;
+
+}
+.btns{
+    margin-left: 20px;
+}
+.register #submit-btn
+{
+    font-size: medium;
+    margin: 20px;
+    background-color: skyblue;
+    color: black;
+    width: 150px;
+    height: 30px;
+    border-color:white;
+}
+.register #reset-btn
+{
+    font-size: medium;
+    margin: 20px;
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-color: white;
+}
+.register #submit-btn:hover
+{
+    font-size: large;
+    box-shadow: 0 0 10px rgb(16, 133, 196);
+}
+.register #reset-btn:hover
+{
+    font-size: large;
+    box-shadow: 0 0 10px rgb(195, 20, 20);
+}

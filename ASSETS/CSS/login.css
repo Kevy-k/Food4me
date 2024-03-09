@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Play:wght@700&display=swap');
+*
+{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Play', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.topnav
+{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    background: black;
+}
+.topnav-btn
+{
+    border: none;
+    width: 90px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background: rgb(83, 83, 83);
+}
+.topnav-btn:hover
+{
+    background: gray;
+}
+.container
+{
+    text-align: center;
+    margin-top: 120px;
+    animation: showMe 2s forwards;
+}
+@keyframes showMe{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.login
+{
+    display: inline-block;
+    background: rgb(37, 60, 95);
+    height: 350px;
+    width: max-content;
+    text-align: center;
+    padding: 10px 30px 30px 30px;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 0 0 8px 0 rgb(26, 67, 92);
+}
+.heading
+{
+    font-size: 36px;
+    color: white;
+    margin: 20px;
+    padding: 0;
+}
+.input
+{
+    margin:12px;
+    width: 250px;
+    height: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.login-btn
+{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 14px;
+    margin-top: 24px;
+}
+.login-btn:hover
+{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.no-account
+{
+    margin: 32px;
+    color: rgb(180, 175, 175);
+}
+.register-link
+{
+    text-decoration: solid;
+    color: rgb(51, 255, 0);
+}
+.register-link:hover
+{
+    color: white;
+}
+.register-link:active
+{
+    color: red;
+}
